@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author beatr
+ * @version 1.0
+ */
 public class Gato {
     protected String nombre;
     protected String etapa;
@@ -28,7 +32,7 @@ public class Gato {
     }
 
     /**
-     *
+     *este metodo nos imprime como se comunica según su color
      * @param color, según color, el mensaje por pantalla es distinto
      */
     public  void miau(String color){
@@ -45,6 +49,7 @@ public class Gato {
 
     /**
      *
+     * este metodo nos imprime por pantalla los zoomies del gato según su etapa
      * @param etapa según etapa de la vida, tendrá un nivel de energía u otro
      */
     public void zoomies(String etapa){
@@ -58,7 +63,7 @@ public class Gato {
     }
 
     /**
-     *
+     *hacemos un shuffle sobre la List con las etapas, y nos devuelve el primer String de la List
      * @return nos devuelve una etapa random de las constantes ya creadas
      */
     public String RandomEtapa(){
@@ -72,7 +77,7 @@ public class Gato {
     }
 
     /**
-     *
+     *hacemos un shuffle sobre la List con los colores, y nos devuelve el primer String de la List
       * @return nos devuelve un color random de las constantes ya creadas
      */
     public String RandomColor(){

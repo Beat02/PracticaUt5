@@ -2,6 +2,11 @@ package cuteCats;
 
 import java.util.Scanner;
 
+/**
+ * @author beatr
+ * @see @Gato
+ * @version 1.0
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -18,8 +23,8 @@ public class Main {
     }
 
     /**
-     *
-     * @param nombre elegido por usuario
+     *nos imprime por pantalla toda la info del gato creado
+     * @param nombre elegido por usuario para poder crear un objeto de Gato
      */
     public static void crearGato(String nombre) {
         Gato gatito = new Gato(nombre);
@@ -30,7 +35,7 @@ public class Main {
     }
 
     /**
-     *
+     *nos imprime por pantalla la despedida del programa
      * @param numeroGatos para imprimirte tantos gatos como los que haya querido crear el usuario
      */
     public static void finPrograma(int numeroGatos){

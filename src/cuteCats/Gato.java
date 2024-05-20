@@ -1,14 +1,18 @@
 package cuteCats;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Gato {
     protected String nombre;
     protected String etapa;
     protected String color;
 
-    public Gato(String nombre, String etapa, String color) {
+    public Gato(String nombre) {
         this.nombre = nombre;
-        this.etapa=etapa;
-        this.color = color;
+        this.etapa=getEtapa();
+        this.color = getColor();
     }
     public  void miau(String color){
         if (color.equalsIgnoreCase(Constante.COLORNARANJA)) {
@@ -17,10 +21,8 @@ public class Gato {
             System.out.println("miauuu (con acento francés)");
         } else if (color.equalsIgnoreCase(Constante.COLORNEGRO)) {
             System.out.println("MrrrIIIrrrAArrrUUU (te trae un juguete para que se lo lances)");
-        } else if (color.equalsIgnoreCase(Constante.COLORCAREY)) {
+        } else {
             System.out.println("miiiiiiaaaaauuuu miaaaaaaaauuuuu (te está pidiendo comida)");
-        }else {
-            System.out.println("ฅ^•ﻌ•^ฅ");
         }
     }
     public void zoomies(String etapa){
@@ -32,5 +34,31 @@ public class Gato {
             System.out.println("No importa lo mayor que sea, los treats le siguen dando zoomies");
         }
     }
-    public void
+    public String getEtapa(){
+        List<String> etapas=new ArrayList<>();
+        etapas.add(Constante.LITTLEBABY);
+        etapas.add(Constante.BABY);
+        etapas.add(Constante.BIGBABY);
+        Collections.shuffle(etapas);
+        String etapa=etapas.getFirst();
+        return etapa;
+    }
+    public String getColor(){
+        List<String> colores=new ArrayList<>();
+        colores.add(Constante.COLORNARANJA);
+        colores.add(Constante.COLORBLANCO);
+        colores.add(Constante.COLORNEGRO);
+        colores.add(Constante.COLORCAREY);
+        Collections.shuffle(colores);
+        String color=colores.getFirst();
+        return color;
+    }
+
+    @Override
+    public String toString() {
+        return "Gato ฅ^•ﻌ•^ฅ" +
+                "nombre='" + nombre + '\'' +
+                ", etapa='" + etapa + '\'' +
+                ", color='" + color + '\'';
+    }
 }

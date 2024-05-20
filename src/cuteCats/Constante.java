@@ -4,6 +4,7 @@ package cuteCats;
  *
  * <strong>@author beatr</strong>
  * @version 1.0
+ *
  *<i>Clase con constantes</i>
  */
 public class Constante {

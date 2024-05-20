@@ -94,7 +94,7 @@ public class Gato {
     /**
      *Imprime por pantalla un maullido
      * @deprecated
-     * Método superado por con mayor personalización
+     * Método superado por método con mayor personalización
      * @see #miau(String)
      */
     public  void maullido(){

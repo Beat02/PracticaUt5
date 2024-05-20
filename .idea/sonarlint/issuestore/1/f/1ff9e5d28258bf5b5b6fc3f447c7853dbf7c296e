@@ -1,4 +1,5 @@
 
-”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\J$f4a8be72-4571-4cb9-b55c-2a103177dc65
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\J$87e7cd5d-2af6-49c7-816a-5f6817e5090c
 }
-java:S1118	":Add a private constructor to hide the implicit public one.(ψ®υρ8―ύ¦ω1J$49326a6d-6f06-4a22-988e-2a55b0e3fdf3
+java:S1118
+":Add a private constructor to hide the implicit public one.(ψ®υρ8―ύ¦ω1J$435a98fc-7e4b-455e-9f7f-4f6310ba0e76

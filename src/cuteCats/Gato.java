@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author beatr
+ * <strong>@author beatr</strong>
  * @version 1.0
  */
 public class Gato {

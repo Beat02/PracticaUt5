@@ -3,7 +3,7 @@ package cuteCats;
 import java.util.Scanner;
 
 /**
- * @author beatr
+ * <strong>@author beatr</strong>
  * @see @Gato
  * @version 1.0
  */

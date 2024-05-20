@@ -9,10 +9,22 @@ public class Gato {
     protected String etapa;
     protected String color;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEtapa() {
+        return etapa;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
     public Gato(String nombre) {
         this.nombre = nombre;
-        this.etapa=getEtapa();
-        this.color = getColor();
+        this.etapa= RandomEtapa();
+        this.color = RandomColor();
     }
     public  void miau(String color){
         if (color.equalsIgnoreCase(Constante.COLORNARANJA)) {
@@ -34,7 +46,7 @@ public class Gato {
             System.out.println("No importa lo mayor que sea, los treats le siguen dando zoomies");
         }
     }
-    public String getEtapa(){
+    public String RandomEtapa(){
         List<String> etapas=new ArrayList<>();
         etapas.add(Constante.LITTLEBABY);
         etapas.add(Constante.BABY);
@@ -43,7 +55,7 @@ public class Gato {
         String etapa=etapas.getFirst();
         return etapa;
     }
-    public String getColor(){
+    public String RandomColor(){
         List<String> colores=new ArrayList<>();
         colores.add(Constante.COLORNARANJA);
         colores.add(Constante.COLORBLANCO);
@@ -56,9 +68,9 @@ public class Gato {
 
     @Override
     public String toString() {
-        return "Gato ฅ^•ﻌ•^ฅ" +
-                "nombre='" + nombre + '\'' +
-                ", etapa='" + etapa + '\'' +
-                ", color='" + color + '\'';
+        return "Gato ฅ^•ﻌ•^ฅ" +"\n"+
+                "nombre:'" + nombre + '\'' +
+                ", etapa:'" + etapa + '\'' +
+                ", color:'" + color + '\'';
     }
 }

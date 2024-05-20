@@ -17,6 +17,10 @@ public class Main {
         finPrograma(numeroGatos);
     }
 
+    /**
+     *
+     * @param nombre elegido por usuario
+     */
     public static void crearGato(String nombre) {
         Gato gatito = new Gato(nombre);
         System.out.println(gatito.toString());
@@ -24,6 +28,11 @@ public class Main {
         gatito.zoomies(gatito.getEtapa());
 
     }
+
+    /**
+     *
+     * @param numeroGatos para imprimirte tantos gatos como los que haya querido crear el usuario
+     */
     public static void finPrograma(int numeroGatos){
         System.out.println("Disfruta de tus gatitos");
         for (int i = 0; i < numeroGatos; i++) {

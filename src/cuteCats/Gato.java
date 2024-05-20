@@ -26,6 +26,11 @@ public class Gato {
         this.etapa= RandomEtapa();
         this.color = RandomColor();
     }
+
+    /**
+     *
+     * @param color, según color, el mensaje por pantalla es distinto
+     */
     public  void miau(String color){
         if (color.equalsIgnoreCase(Constante.COLORNARANJA)) {
             System.out.println("MIIIIIAAAAAUUUUUUU (está mirando a una esquina, probablemente haya un fantasma)");
@@ -37,6 +42,11 @@ public class Gato {
             System.out.println("miiiiiiaaaaauuuu miaaaaaaaauuuuu (te está pidiendo comida)");
         }
     }
+
+    /**
+     *
+     * @param etapa según etapa de la vida, tendrá un nivel de energía u otro
+     */
     public void zoomies(String etapa){
         if (etapa.equalsIgnoreCase(Constante.LITTLEBABY)){
             System.out.println("Tu gatito tiene tanta energía que ha tirado el jarrón de la mesa, y un par de tazas");
@@ -46,6 +56,11 @@ public class Gato {
             System.out.println("No importa lo mayor que sea, los treats le siguen dando zoomies");
         }
     }
+
+    /**
+     *
+     * @return nos devuelve una etapa random de las constantes ya creadas
+     */
     public String RandomEtapa(){
         List<String> etapas=new ArrayList<>();
         etapas.add(Constante.LITTLEBABY);
@@ -55,6 +70,11 @@ public class Gato {
         String etapa=etapas.getFirst();
         return etapa;
     }
+
+    /**
+     *
+      * @return nos devuelve un color random de las constantes ya creadas
+     */
     public String RandomColor(){
         List<String> colores=new ArrayList<>();
         colores.add(Constante.COLORNARANJA);

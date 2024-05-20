@@ -23,8 +23,9 @@ public class Main {
     }
 
     /**
-     *nos imprime por pantalla toda la info del gato creado
+     *Nos imprime por pantalla toda la info del gato creado
      * @param nombre elegido por usuario para poder crear un objeto de Gato
+     * @see Gato
      */
     public static void crearGato(String nombre) {
         Gato gatito = new Gato(nombre);
@@ -35,8 +36,9 @@ public class Main {
     }
 
     /**
-     *nos imprime por pantalla la despedida del programa
+     *Imprime por pantalla la despedida del programa
      * @param numeroGatos para imprimirte tantos gatos como los que haya querido crear el usuario
+     *
      */
     public static void finPrograma(int numeroGatos){
         System.out.println("Disfruta de tus gatitos");

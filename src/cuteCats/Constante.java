@@ -1,5 +1,11 @@
 package cuteCats;
 
+/**
+ * Clase con constantes
+ * <strong>@author beatr</strong>
+ * @version 1.0
+ *
+ */
 public class Constante {
     public static final String LITTLEBABY="LITTLE BABY";
     public static final String BABY="BABY";

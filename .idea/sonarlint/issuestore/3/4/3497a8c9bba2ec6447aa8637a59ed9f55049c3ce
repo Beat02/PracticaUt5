@@ -1,19 +1,24 @@
 
 ¥
-java:S1488K"]Immediately return this expression instead of assigning it to the temporary variable "etapa".(‘´í°ıÿÿÿÿ8íı¼«ù1J$48d88065-07b7-4f93-8d6b-06bc19501908
+java:S1488K"]Immediately return this expression instead of assigning it to the temporary variable "etapa".(‘´í°ıÿÿÿÿ8ï÷­ù1J$5866aed7-efeb-4ae7-b7c3-0ba0b845125e
 ¥
-java:S1488Z"]Immediately return this expression instead of assigning it to the temporary variable "color".(ŒòÅÄşÿÿÿÿ8îı¼«ù1J$bce7d219-37df-4aa1-89b0-4352c0c84260
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\8ğı¼«ù1J$83af42ca-7c03-4061-8063-ba4797fd2533
-l	java:S106("+Replace this use of System.out by a logger.(‡„µ8ˆş¼«ù1J$09391c88-c099-41da-b36b-ac996375d106
-m	java:S106*"+Replace this use of System.out by a logger.(‡¶Õ„8‰ş¼«ù1J$af5ccca3-df4e-4763-83e1-f5f686a75f08
-r	java:S106,"+Replace this use of System.out by a logger.(È¹êõşÿÿÿÿ8‰ş¼«ù1J$3bf5325b-fd2f-41a2-93ef-eb3e8ba3ad2a
-l	java:S106."+Replace this use of System.out by a logger.(©½ß8‰ş¼«ù1J$4132c608-91fd-4de0-80c5-2566e7733ec8
-m	java:S1069"+Replace this use of System.out by a logger.(Ã³³´8‹ş¼«ù1J$a5846516-40fb-4230-8534-20f2fb5948d3
-m	java:S106;"+Replace this use of System.out by a logger.(¶½¶8‹ş¼«ù1J$1fe35b50-18ec-4b66-8c28-68392af83bd7
-l	java:S106="+Replace this use of System.out by a logger.(•¨Ş8‹ş¼«ù1J$c5eae313-a0b2-4120-a5a0-935b2f2add8c
-	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(––Í‘8ş¼«ù1J$04bd90f0-ac03-4721-bd88-c37ebeb3949c
+java:S1488Z"]Immediately return this expression instead of assigning it to the temporary variable "color".(ŒòÅÄşÿÿÿÿ8ğ÷­ù1J$04dd65cc-6063-489b-aedf-613025df3365
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\8ó÷­ù1J$10ee7026-9239-48c3-85d8-8e751f77c05a
+l	java:S106("+Replace this use of System.out by a logger.(‡„µ8—‚÷­ù1J$32ca704f-166b-450d-86ad-cef5066043cb
+m	java:S106*"+Replace this use of System.out by a logger.(‡¶Õ„8—‚÷­ù1J$c11d59df-41da-4598-a4e0-8dd907bfe3cc
+r	java:S106,"+Replace this use of System.out by a logger.(È¹êõşÿÿÿÿ8˜‚÷­ù1J$3ce17d7f-375d-4cb4-a715-8d8d8ed905a6
+l	java:S106."+Replace this use of System.out by a logger.(©½ß8˜‚÷­ù1J$721d4c9a-216a-4a4e-b60e-841b98fb2ce6
+m	java:S1069"+Replace this use of System.out by a logger.(Ã³³´8š‚÷­ù1J$e0dbbe92-29f1-46ae-bcf2-64eaba0c459e
+m	java:S106;"+Replace this use of System.out by a logger.(¶½¶8š‚÷­ù1J$18cd145d-e1cd-44a6-98b0-7d10e4f618e1
+l	java:S106="+Replace this use of System.out by a logger.(•¨Ş8š‚÷­ù1J$cef6dffc-c83d-4fb9-822f-64b55ba39578
+	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(––Í‘8œ‚÷­ù1J$b61009d2-11d8-41eb-9ba4-bb952fd36c40
 
-java:S1117K"9Rename "etapa" which hides the field declared at line 13.(‘´í°ıÿÿÿÿ8ş¼«ù1J$221d3ab8-7185-47f0-ade6-ec4f69ef4e0d
-•	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âæ÷úÿÿÿÿ8ş¼«ù1J$82a4b5cb-7167-4aa3-870e-82baeb6f76c8
+java:S1117K"9Rename "etapa" which hides the field declared at line 13.(‘´í°ıÿÿÿÿ8 ‚÷­ù1J$e2e4595e-80f4-4a04-aea1-ff05866364b1
+•	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âæ÷úÿÿÿÿ8 ‚÷­ù1J$0f1a953b-4a8f-45c1-96b6-c780656dac4c
 
-java:S1117Z"9Rename "color" which hides the field declared at line 14.(ŒòÅÄşÿÿÿÿ8’ş¼«ù1J$980c5ac2-d3dc-4e88-91c7-e420b53bbef1
+java:S1117Z"9Rename "color" which hides the field declared at line 14.(ŒòÅÄşÿÿÿÿ8¢‚÷­ù1J$b56a7b57-d472-417e-94a7-2604b476d8d7
+x
+java:S1133d"5Do not forget to remove this deprecated code someday.(¬ğ˜8Áóø­ù1J$9849b9f9-b330-4f9d-8e75-3ffdee911af4
+j
+java:S1123d"'Add the missing @Deprecated annotation.(¬ğ˜8Ãóø­ù1J$45e24b74-f2cc-447e-88f2-23c7c0b942e4
+m	java:S106e"+Replace this use of System.out by a logger.(­ğÖç8Ñû÷­ù1J$e7e29326-828a-4df5-8cca-348954c89033

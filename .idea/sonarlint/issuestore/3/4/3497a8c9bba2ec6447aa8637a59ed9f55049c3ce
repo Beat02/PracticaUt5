@@ -1,0 +1,17 @@
+
+¥
+java:S1488+"]Immediately return this expression instead of assigning it to the temporary variable "etapa".(‘´í°ıÿÿÿÿ8°ß‚ªù1J$63d529bd-a16d-4c17-978f-2981a232c22b
+¥
+java:S14885"]Immediately return this expression instead of assigning it to the temporary variable "color".(ŒòÅÄşÿÿÿÿ8±ß‚ªù1J$771433ad-1d64-416c-bcfd-8f379f3956a6
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\8³ß‚ªù1J$1c779630-eb59-4033-99ec-903f2e997305
+l	java:S106"+Replace this use of System.out by a logger.(‡„µ8½ß‚ªù1J$c9af19fd-c32d-4b6f-a215-803c770c5933
+m	java:S106"+Replace this use of System.out by a logger.(‡¶Õ„8½ß‚ªù1J$7f6d19bd-fcff-49cb-a177-80be4e0bf6a9
+r	java:S106"+Replace this use of System.out by a logger.(È¹êõşÿÿÿÿ8¾ß‚ªù1J$b4f6c94c-1023-425c-8788-029b1d81949c
+l	java:S106"+Replace this use of System.out by a logger.(©½ß8¾ß‚ªù1J$03c2fd07-418e-48f1-9686-cda861cbc471
+m	java:S106"+Replace this use of System.out by a logger.(Ã³³´8¿ß‚ªù1J$bc496a7e-b7e8-44d8-b3bf-0a06e3f170f4
+m	java:S106 "+Replace this use of System.out by a logger.(¶½¶8¿ß‚ªù1J$e9b8de20-77a4-4a7b-ab41-cc35739b6337
+l	java:S106""+Replace this use of System.out by a logger.(•¨Ş8Àß‚ªù1J$d4cc891b-b421-4242-b977-0bf78bd83595
+€
+java:S1117+"8Rename "etapa" which hides the field declared at line 9.(‘´í°ıÿÿÿÿ8Ãß‚ªù1J$1d9ea83d-ccda-4947-aa20-3f77822f4cac
+
+java:S11175"9Rename "color" which hides the field declared at line 10.(ŒòÅÄşÿÿÿÿ8Åß‚ªù1J$91aaa607-48c4-4f91-b405-ad81ba7ad742

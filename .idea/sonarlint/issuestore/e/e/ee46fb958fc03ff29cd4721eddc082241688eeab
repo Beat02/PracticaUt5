@@ -1,4 +1,7 @@
 
-”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\J$cb405a78-2e43-4c84-92a6-ed2ce74c91a6
-…
-java:S2094"BRemove this empty class, write its code or make it an "interface".(àªÅö8âµ»¦ù1J$f62a9690-a1e8-4b80-beef-bfc59938d375
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò™”\8°¥‹ªù1J$ad0d0ce6-75c2-4185-b655-2c59c7a3ba25
+‡
+java:S1854"?Remove this useless assignment to local variable "numeroGatos".(Áõáûÿÿÿÿ8ì°ªù1J$a8a73357-2e65-4698-9009-50fec4f193d0
+s
+java:S1481"0Remove this unused "numeroGatos" local variable.(†Ü¹¶8±è‹ªù1J$d7f0cac0-3cca-42b5-bd80-454e96d3709d
+m	java:S106	"+Replace this use of System.out by a logger.(…ÍæÆ8È¥‹ªù1J$7120871f-489c-4bde-a23f-0d9f6d55d556

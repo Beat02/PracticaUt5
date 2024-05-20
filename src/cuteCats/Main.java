@@ -27,7 +27,7 @@ public class Main {
     public static void finPrograma(int numeroGatos){
         System.out.println("Disfruta de tus gatitos");
         for (int i = 0; i < numeroGatos; i++) {
-            System.out.println("/ᐠ - ˕ -マ Ⳋ");
+            System.out.println("≽^•⩊•^≼");
         }
     }
 }

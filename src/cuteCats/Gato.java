@@ -69,8 +69,8 @@ public class Gato {
     @Override
     public String toString() {
         return "Gato ฅ^•ﻌ•^ฅ" +"\n"+
-                "nombre:'" + nombre + '\'' +
-                ", etapa:'" + etapa + '\'' +
-                ", color:'" + color + '\'';
+                "nombre: " + nombre + '\n' +
+                "etapa: " + etapa + '\n' +
+                "color: " + color + '\n';
     }
 }
